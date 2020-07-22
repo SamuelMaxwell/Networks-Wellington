@@ -18,7 +18,7 @@ section{
 }
 
 header{
-	background-color: darkOrange;
+	background-color: #70161E;
 	color: white; /* more readable on an orange background */
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -43,6 +43,9 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+h1{
+	color: #345995;
+}
 
 
 /* Simple grid */
@@ -61,7 +64,7 @@ nav a:hover{
 }
 
 .g-30{
-	width: 30%;
+	max-width: 30%;
 	float: left;
 }
 
